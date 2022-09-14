@@ -1,0 +1,15 @@
+import time
+
+while True:
+    year = int(input("Enter your nominated year please:"))
+    if year%4==0:
+        if year%100==0:
+            if year%400==0:
+                print("Yes! It is a leap year!")
+            else:
+                print("Yes! It is a leap year!")
+        else:
+            print("Nope! sorry, It is not a leap year!")
+    else:
+        print("this is not a leap year!")
+    time.sleep(2)
