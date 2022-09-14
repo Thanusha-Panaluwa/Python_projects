@@ -1,0 +1,25 @@
+import time
+
+while True:
+    score = int(input("Enter your score to get your grade:"))
+
+    if score >= 80:
+        print("you get A+")
+    elif 79>=score>=75:
+        print("You get A")
+    elif 74>=score>=70:
+        print("You get A-")
+    elif 69>=score>=65:
+        print("You get B+")
+    elif 64>=score>=60:
+        print("You get B")
+    elif 59>=score>=55:
+        print("You get B-")
+    elif 54>=score>=50:
+        print("You get C+")
+    elif 49>=score>=45:
+        print("You get C")
+    elif 44 >= score >= 40:
+        print("You get D")
+    else:
+        print("Sorry ! You get F. Work more to achieve other score!")
