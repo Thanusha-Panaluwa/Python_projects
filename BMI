@@ -1,0 +1,15 @@
+while True:
+    mass = int(input("Enter your mass in kg:"))
+    height = int(input("Enter your height in m:"))
+
+    bmi = mass/height**2
+
+    if bmi <=18.5:
+        print("underweight")
+        print(bmi)
+    elif bmi <=24.9:
+        print("Normal weight")
+        print(bmi)
+    elif bmi <= 29.9:
+        print("overweight")
+        print(bmi)
