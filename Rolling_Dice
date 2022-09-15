@@ -1,0 +1,17 @@
+import random
+
+player1 = input("Enter player1's name:")
+player2 = input("Enter player2's name:")
+
+print(f"Now {player1} roll the disc.")
+a = random.randint(1,6)
+print(f"{player1} got {a}.")
+
+print(f"Now {player2} roll the disc.")
+b = random.randint(1,6)
+print(f"{player2} got {b}.")
+
+if a>b:
+    print(f"{player1} win the game")
+else:
+    print(f"{player2} win the game.")
